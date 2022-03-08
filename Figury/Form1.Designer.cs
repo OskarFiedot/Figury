@@ -58,7 +58,6 @@
             this.label_liczba_bledow = new System.Windows.Forms.Label();
             this.label_czas_koncowy = new System.Windows.Forms.Label();
             this.label_end_game = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.kwadrat1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.okrag1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trojkat1)).BeginInit();
@@ -390,22 +389,11 @@
     ":";
             this.label_end_game.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 783);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(448, 19);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Oskar Fiedot 179914, Cel gry: matematyczna gra dla dzieci Figury";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 811);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.next_lvl_label);
             this.Controls.Add(this.button_reset);
             this.Controls.Add(this.trojkat_label);
@@ -472,6 +460,5 @@
         private System.Windows.Forms.Label label_liczba_bledow;
         private System.Windows.Forms.Label label_czas_koncowy;
         private System.Windows.Forms.Button restart_button;
-        private System.Windows.Forms.Label label4;
     }
 }

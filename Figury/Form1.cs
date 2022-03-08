@@ -9,11 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/*
- * Oskar Fiedot     179914      Tele gr. dziek. 1.      grupa projektowa: 4
- * gra o tytule "Figury"
- */
-
 // Klasa Form1, definiująca działanie gry i jej interfejs
 
 namespace Figury
@@ -23,8 +18,8 @@ namespace Figury
         List<Panel> panele = new List<Panel>();         // listy elementów znajdujących się w oknie gry, ułatwiające wykonywanie powtarzalnych zadań
         List<Figura> figury = new List<Figura>();
         List<Label> liczby = new List<Label>();
-        Hashtable hashtable = new Hashtable();     // tablica hashowalna, przechowująca jako klucze obiekty figur na ekranie, a jako wartości obiekty labelów nad tymi figurami, które są do nich przypisane
-        Gra game = new Gra();       // instancja klasy Gra
+        Hashtable hashtable = new Hashtable();          // tablica hashowalna, przechowująca jako klucze obiekty figur na ekranie, a jako wartości obiekty labelów nad tymi figurami, które są do nich przypisane
+        Gra game = new Gra();                           // instancja klasy Gra
 
         public Form1()
         {
